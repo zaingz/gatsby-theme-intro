@@ -1,15 +1,15 @@
 module.exports = ({
   basePath = "/",
   contentPath = "content/",
-  showThemeLogo = true,
+  showThemeLogo = false,
   theme = "classic",
 }) => {
   return {
     siteMetadata: {
-      description: "Personal page of John Doe",
+      description: "Personal page of Zain Zafar",
       locale: "en",
       showThemeLogo,
-      title: "John Doe",
+      title: "Zain Zafar",
       formspreeEndpoint: "https://formspree.io/f/{your-id}",
     },
     plugins: [
